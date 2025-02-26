@@ -7,26 +7,26 @@
     "magic mirror",
     "background"
   ],
-  "homepage": "https://github.com/bugsounet/EXT-Glassy",
+  "homepage": "https://github.com/Botts85/EXT-Glassy",
   "bugs": {
-    "url": "https://github.com/bugsounet/EXT-Glassy"
+    "url": "https://github.com/Botts85/EXT-Glassy"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bugsounet/EXT-Glassy"
+    "url": "https://github.com/Botts85/EXT-Glassy"
   },
   "license": "MIT",
   "author": "@bugsounet",
   "main": "MMM-Glassy.js",
   "scripts": {
-    "clean": "node ../../installer/clean --path=EXTs/EXT-Glassy",
-    "deps": "node ../../installer/deps --path=EXTs/EXT-Glassy",
-    "dev": "node ../../installer/dev --path=EXTs/EXT-Glassy",
-    "dev:src": "node ../../installer/src --path=EXTs/EXT-Glassy",
+    "clean": "node ../../installer/clean --path=modules/EXT-Glassy",
+    "deps": "node ../../installer/deps --path=modules/EXT-Glassy",
+    "dev": "node ../../installer/dev --path=modules/EXT-Glassy",
+    "dev:src": "node ../../installer/src --path=modules/EXT-Glassy",
     "preinstall": "echo ⚠ Please use: npm run setup && exit 1",
     "install": "exit 1",
-    "reset": "node ../../installer/reset --path=EXTs/EXT-Glassy",
-    "setup": "node installer/setup --path=EXTs/EXT-Glassy"
+    "reset": "node ../../installer/reset --path=modules/EXT-Glassy",
+    "setup": "node installer/setup --path=modules/EXT-Glassy"
   },
   "rev": "250103"
 }
